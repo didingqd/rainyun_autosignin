@@ -25,6 +25,6 @@ jobs:
           -H "Authorization: Bot ${{ secrets.TELEGRAM_BOT_TOKEN }}" \
           -d '{
             "chat_id": ${{ secrets.TELEGRAM_CHAT_ID }},
-            "text": "雨云每日签到已完成！"
+            "text": "雨云今日签到--------已完成！"
           }' \
           "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
