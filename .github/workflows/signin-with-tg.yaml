@@ -1,9 +1,9 @@
 name: 每日签到（tg通知）
 
 on:
-  schedule:
-  - cron: '*/6 * * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '*/6 * * * *'
 
 jobs:
   daily-checkin:
